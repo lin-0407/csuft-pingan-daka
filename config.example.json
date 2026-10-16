@@ -1,0 +1,12 @@
+{
+  "_comment": "复制成 config.json 再填。token 通过 proxy/start_capture.ps1 抓包获取，有效期约 20 天。",
+  "token": "<在这里填 FlySource-Auth 的值，eyJ... 开头>",
+  "taskId": "<任务 id，从 getTaskByIdForApp 的返回或小程序页面参数里取>",
+  "signLat": null,
+  "signLng": null,
+  "signWindow": {
+    "start": "21:05",
+    "end": "21:25"
+  },
+  "retrySeconds": 180
+}

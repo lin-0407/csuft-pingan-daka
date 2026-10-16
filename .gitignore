@@ -1,0 +1,15 @@
+# 私密 / 运行期产物，绝对不要提交
+config.json
+*.log
+LATEST-STATUS.txt
+failures/
+__pycache__/
+proxy/traffic.jsonl
+proxy/flows.dump
+proxy/state.json
+proxy/mitmdump.out.log
+proxy/mitmdump.err.log
+proxy/mitmdump.pid
+proxy/proxy_backup.json
+extracted/
+*.wxapkg
